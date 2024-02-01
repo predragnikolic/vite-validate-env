@@ -1,0 +1,25 @@
+{
+  "name": "@predragnikolic/vite-validate-env",
+  "version": "0.0.6",
+  "description": "Script to gen erate translations files from local or remote csv.",
+  "license": "MIT",
+  "main": "./src/index.mjs",
+  "types": "./src/index.d.mts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/predragnikolic/vite-validate-env.git"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "bugs": {
+    "url": "https://github.com/predragnikolic/vite-validate-env/issues"
+  },
+  "peerDependencies": {
+    "vite": "^5.0.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
