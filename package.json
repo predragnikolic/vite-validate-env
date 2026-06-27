@@ -1,6 +1,6 @@
 {
   "name": "@predragnikolic/vite-validate-env",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Script to gen erate translations files from local or remote csv.",
   "license": "MIT",
   "main": "./src/index.mjs",
@@ -17,7 +17,7 @@
   },
   "peerDependencies": {
     "vite": "^5 || ^6 || ^7 || ^8 || ^9",
-    "zod": "^3 || ^4"
+    "zod": "^4"
   },
   "devDependencies": {
     "@types/node": "^18.11.9"
